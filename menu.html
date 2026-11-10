@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daylight Cafe | Menu</title>
+  <link rel="stylesheet" href="cafestyle.css">
+  <script src="cafe.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="cafe-logo.webp" alt="Daylight Cafe storefront"><span>Daylight <small>CAFE</small></span></a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Main</a><a class="active" href="menu.html">Menu</a>
+      <a href="checkout.html">Checkout <span class="cart-count">0</span></a><a href="contact.html">About Us</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="page-title"><p class="eyebrow">Fresh from our kitchen</p><h1>Our Menu</h1><p>Simple favourites and cafe classics, prepared just for you.</p></section>
+
+    <section class="menu-feature slider" data-slider>
+      <button class="slide-arrow prev" aria-label="Previous picture">‹</button>
+      <div class="slides">
+        <article class="slide active"><img src="pasta.jpg" alt="Pasta served in a bowl"><div class="slide-caption"><h3>Freshly made favourites</h3></div></article>
+        <article class="slide"><img src="coffee-dessert.jpg" alt="Coffee and cafe table"><div class="slide-caption"><h3>Take a coffee break</h3></div></article>
+        <article class="slide"><img src="bread.jpg" alt="Fresh bakery bread"><div class="slide-caption"><h3>Baked fresh every day</h3></div></article>
+      </div>
+      <button class="slide-arrow next" aria-label="Next picture">›</button><div class="slider-dots"></div>
+    </section>
+
+    <section class="section menu-section">
+      <div class="section-heading"><p class="eyebrow">Choose your favourite</p><h2>Food & Drinks</h2></div>
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=85" alt="Alfredo pasta">
+          <div class="menu-card-content"><div class="menu-card-title"><h3>Alfredo Pasta</h3><strong>Rs. 1,800</strong></div><p>Creamy pasta served with a rich sauce and your choice of toppings.</p><button class="button add-to-cart" data-id="alfredo" data-name="Alfredo Pasta" data-price="1800">Add to cart</button></div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=800&q=85" alt="Cafe coffee">
+          <div class="menu-card-content"><div class="menu-card-title"><h3>Classic Coffee</h3><strong>Rs. 450</strong></div><p>Freshly brewed coffee with a smooth, comforting taste.</p><button class="button add-to-cart" data-id="coffee" data-name="Classic Coffee" data-price="450">Add to cart</button></div>
+        </article>
+        <article class="menu-card">
+          <img src="donuts.jpg" alt="Donuts">
+          <div class="menu-card-content"><div class="menu-card-title"><h3>Sweet Donuts</h3><strong>Rs. 350</strong></div><p>Soft, delicious donuts for a little sweetness with your day.</p><button class="button add-to-cart" data-id="donut" data-name="Sweet Donuts" data-price="350">Add to cart</button></div>
+        </article>
+        <article class="menu-card">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=85" alt="Fresh bread">
+          <div class="menu-card-content"><div class="menu-card-title"><h3>Fresh Bakery Bread</h3><strong>Rs. 500</strong></div><p>Freshly baked bread with a golden crust and soft centre.</p><button class="button add-to-cart" data-id="bread" data-name="Fresh Bakery Bread" data-price="500">Add to cart</button></div>
+        </article>
+      </div>
+      <p class="cart-message" aria-live="polite"></p>
+      <div class="center"><a class="button button-outline" href="checkout.html">Go to checkout</a></div>
+    </section>
+  </main>
+  <footer><p>© <span data-year></span> Daylight Cafe. Made with love.</p></footer>
+</body>
+</html>

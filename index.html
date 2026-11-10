@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daylight Cafe | Home</title>
+  <link rel="stylesheet" href="cafestyle.css">
+  <script src="cafe.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="cafe-logo.webp" alt="Daylight Cafe storefront"><span>Daylight <small>CAFE</small></span></a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a class="active" href="index.html">Main</a>
+      <a href="menu.html">Menu</a>
+      <a href="checkout.html">Checkout <span class="cart-count">0</span></a>
+      <a href="contact.html">About Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">A little pause in your day</p>
+        <h1>Welcome to <em>Daylight Cafe</em></h1>
+        <p>Freshly prepared favourites, warm coffee and a cosy place to make every moment feel special.</p>
+        <a class="button" href="menu.html">Explore our menu</a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Warm cafe interior"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading">
+        <p class="eyebrow">Made with care</p>
+        <h2>A taste of the cafe</h2>
+        <p>Take a look at some of the treats waiting for you.</p>
+      </div>
+      <div class="slider" data-slider>
+        <button class="slide-arrow prev" aria-label="Previous picture">‹</button>
+        <div class="slides">
+          <article class="slide active">
+            <img src="pasta.jpg" alt="Creamy pasta dish">
+            <div class="slide-caption"><h3>Creamy pasta</h3><p>Comfort food, made fresh.</p></div>
+          </article>
+          <article class="slide">
+            <img src="coffee.jpg" alt="Freshly prepared coffee">
+            <div class="slide-caption"><h3>Fresh coffee</h3><p>Your favourite cup, any time of day.</p></div>
+          </article>
+          <article class="slide">
+            <img src="donuts.jpg" alt="Fresh cafe pastries">
+            <div class="slide-caption"><h3>Sweet treats</h3><p>A little something to brighten your day.</p></div>
+          </article>
+        </div>
+        <button class="slide-arrow next" aria-label="Next picture">›</button>
+        <div class="slider-dots" aria-label="Choose a picture"></div>
+      </div>
+    </section>
+
+    <section class="welcome-strip">
+      <div><p class="eyebrow">Our promise</p><h2>Good food. Good coffee. Good company.</h2></div>
+      <a class="text-link" href="contact.html">Get in touch →</a>
+    </section>
+  </main>
+  <footer><p>© <span data-year></span> Daylight Cafe. Made with love.</p></footer>
+</body>
+</html>

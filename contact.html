@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daylight Cafe | About Us</title>
+  <link rel="stylesheet" href="cafestyle.css">
+  <script src="cafe.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="cafe-logo.webp" alt="Daylight Cafe storefront"><span>Daylight <small>CAFE</small></span></a>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Main</a><a href="menu.html">Menu</a>
+      <a href="checkout.html">Checkout <span class="cart-count">0</span></a><a class="active" href="contact.html">About Us</a>
+    </nav>
+  </header>
+  <main class="page-main">
+    <section class="page-title"><p class="eyebrow">We would love to hear from you</p><h1>About Us & Contact</h1><p>A warm welcome, a freshly made meal and a place to feel at home.</p></section>
+    <section class="about-layout">
+      <div class="about-photo"><img src="cafe-logo.webp" alt="Daylight Cafe storefront"></div>
+      <div class="about-copy"><p class="eyebrow">Our story</p><h2>Your neighbourhood cafe</h2><p>Daylight Cafe is a cosy place to slow down and enjoy good food. From comforting pasta to freshly brewed coffee and sweet treats, we believe the little things make a day brighter.</p><p>Whether you are meeting friends, taking a study break or picking up your favourite snack, we look forward to welcoming you.</p></div>
+    </section>
+    <section class="contact-layout section">
+      <div class="contact-details"><p class="eyebrow">Say hello</p><h2>Contact Us</h2><p>Have a question or want to share feedback? Send us a message.</p><p><strong>Email:</strong> hello@daylightcafe.example</p><p><strong>Phone:</strong> +92 300 0000000</p><p><strong>Address:</strong> Islamabad, Pakistan</p><p class="small-note">These are sample contact details. Replace them with the cafe's real information.</p></div>
+      <form id="contact-form" class="contact-form">
+        <label for="contact-name">Your name</label><input id="contact-name" name="name" type="text" placeholder="Enter your name" required>
+        <label for="contact-email">Email address</label><input id="contact-email" name="email" type="email" placeholder="Enter your email" required>
+        <label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+        <button class="button" type="submit">Send message</button><p id="contact-feedback" class="cart-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+  <footer><p>© <span data-year></span> Daylight Cafe. Made with love.</p></footer>
+</body>
+</html>
