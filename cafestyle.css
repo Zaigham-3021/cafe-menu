@@ -1,0 +1,29 @@
+/* <!--Zaigham Shahzad i263021-A --> */
+body{
+    background-color: linen;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+font-size: 30px;
+text-justify: auto;
+text-align: center;
+}
+#sub{
+    font: 1em sans-serif;
+    text-justify: auto;
+    font-weight: 0;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+.cbutton{
+    background-color: azure;
+    size: 3px;
+    border-radius: 7px;
+    color:black;
+}
+
